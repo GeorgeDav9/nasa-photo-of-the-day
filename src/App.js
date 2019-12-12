@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
 import styled from 'styled-components';
 import "./App.css";
-import Axios from 'axios';
+import axios from 'axios';
 
-import Header from './src/components/HeaderComponent/Header';
-import Photo from './src/components/PhotoComponent/Photo';
-import Info from './src/components/InfoComponent/Info';
+import Header from './components/HeaderComponent/Header';
+import Photo from './components/PhotoComponent/Photo';
+import Info from './components/InfoComponent/Info';
 
 
 import "./App.css";
@@ -16,7 +16,7 @@ function App() {
   const [explanation, setExplanation] = useState();
 
   useEffect(() => {
-    Axios.get('https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY')
+    axios.get('https://api.nasa.gov/planetary/apod?api_key=TUeuPhD5Bd1hMUIYSEMy4FM1INKxYgKWMKvLTq15')
      .then(response => {
        console.log(response);
        setPhoto(response.data.url);

@@ -6,11 +6,12 @@ const WhiteH1 = styled.h1`
 `;
 const Header = () => {
     return (
-        <section className = 'header'>
-            <div className = 'heading'>
-            <WhiteH1>NASA Photo Of The Day</WhiteH1>
-            </div>
-        </section>
+        <div></div>
+        // <section className = 'header'>
+        //     <div className = 'heading'>
+        //     <WhiteH1>NASA Photo Of The Day</WhiteH1>
+        //     </div>
+        // </section>
     );
 }
 
