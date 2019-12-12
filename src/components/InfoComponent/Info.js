@@ -10,7 +10,7 @@ const InfoSection = styled.div`
     flex-direction: column;
     align-text: center;
 `;
-const InfoComponent = (props) => {
+const Info = (props) => {
     //console.log(props);
     return (
         <InfoSection>

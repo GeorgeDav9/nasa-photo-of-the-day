@@ -4,7 +4,7 @@ import styled from 'styled-components';
 const WhiteH1 = styled.h1`
     color: white;
 `;
-const HeaderComponent = () => {
+const Header = () => {
     return (
         <section className = 'header'>
             <div className = 'heading'>

@@ -4,7 +4,7 @@ import styled from 'styled-components';
 const PhotoDiv = styled.div`
     border: 10px solid white;
 `;
-const PhotoComponent = (props) => {
+const Photo = (props) => {
     console.log(props);
     return (
         <PhotoDiv>
